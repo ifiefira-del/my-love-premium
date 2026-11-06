@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f9dce8">
+<title>MY LOVE PREMIUM™ — Forever Plan</title>
+<style>
+:root{--pink:#d96f99;--deep:#914766;--pale:#fff3f8;--line:#f0c8d9;--ink:#63364b;--muted:#9b7184}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:radial-gradient(circle at 15% 10%,#fff 0,transparent 30%),linear-gradient(145deg,#fff7fa,#f7dce8 55%,#fcecf3);display:grid;place-items:center;padding:22px}
+.wrap{width:min(100%,520px)}
+.top{display:flex;justify-content:space-between;align-items:center;margin:0 4px 14px;color:var(--deep);font-size:11px;letter-spacing:.16em;font-weight:800}
+.top span:last-child{border:1px solid var(--line);padding:7px 10px;border-radius:99px;background:#ffffff9c}
+.card{background:#fffafc;border:1px solid #fff;box-shadow:0 24px 70px #a6537620;border-radius:28px;padding:clamp(22px,5vw,36px);position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;width:180px;height:180px;border-radius:50%;background:#fbe3ed;right:-95px;top:-95px}
+.brand{position:relative;text-align:center}
+.logo{font-size:12px;letter-spacing:.22em;font-weight:900;color:var(--deep)}
+.heart{font-size:38px;margin:17px 0 7px;color:var(--pink);filter:drop-shadow(0 5px 8px #d96f9930)}
+h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(32px,8vw,43px);line-height:1.04;margin:8px 0;color:var(--deep)}
+.sub{font-size:12px;letter-spacing:.13em;color:var(--muted);font-weight:700}
+.price{font-family:Georgia,serif;font-size:35px;margin:18px 0 3px;color:var(--deep)}
+.pill{display:inline-block;background:#fce7ef;color:#a34f74;border:1px solid #f4d1df;border-radius:99px;padding:7px 12px;font-size:10px;letter-spacing:.12em;font-weight:900}
+.rule{height:1px;background:var(--line);margin:23px 0}
+.copy{font-size:14px;line-height:1.7;color:#79576a}
+h2{font-size:12px;letter-spacing:.14em;color:var(--deep);margin:0 0 13px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.benefit{border:1px solid #f4dce6;background:#fff5f9;border-radius:15px;padding:13px;font-size:12px;font-weight:700}
+.benefit b{display:block;font-size:20px;margin-bottom:5px}
+.actions{display:grid;gap:10px;margin-top:22px}
+button{border:0;border-radius:14px;padding:15px 18px;font-size:13px;font-weight:850;letter-spacing:.06em;cursor:pointer;transition:.18s}
+button:hover{transform:translateY(-1px)}
+.primary{background:linear-gradient(135deg,#e78eb0,#c85f8b);color:white;box-shadow:0 10px 22px #d96f9933}
+.secondary{background:#fff;border:1px solid var(--line);color:var(--deep)}
+.ghost{background:transparent;color:var(--muted);font-size:11px}
+.field{display:grid;gap:7px;margin:14px 0}
+label{font-size:11px;font-weight:800;letter-spacing:.08em;color:var(--deep)}
+input{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);font:inherit;outline:none}
+input:focus{border-color:var(--pink);box-shadow:0 0 0 3px #d96f9920}
+.terms{display:grid;gap:13px}
+.term{border:1px solid #f4dce6;border-radius:14px;padding:13px;background:#fff8fb}
+.term strong{display:block;font-size:12px;color:var(--deep);margin-bottom:5px}
+.term p{font-size:12px;line-height:1.6;color:#79576a;margin:0}
+.note{font-size:11px;line-height:1.6;color:var(--muted);text-align:center}
+.hidden{display:none!important}
+.member{border:1px solid #eec5d7;background:linear-gradient(145deg,#fff7fa,#f9e0eb);border-radius:20px;padding:22px;margin-top:14px}
+.member-top{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.member-id{font:11px ui-monospace,monospace;color:#a65a7b}
+.member-name{font:30px Georgia,serif;color:var(--deep);margin:20px 0 5px;overflow-wrap:anywhere}
+.member-meta{display:flex;justify-content:space-between;gap:12px;font-size:10px;letter-spacing:.08em;color:#98647c;margin-top:20px}
+.foot{text-align:center;font-size:10px;color:#a47b8e;margin:18px 0 0}
+.toast{text-align:center;color:var(--deep);font-size:13px;line-height:1.6;padding:12px;background:#fff0f6;border-radius:13px;margin-top:12px}
+@media(max-width:380px){.grid{grid-template-columns:1fr}.card{padding:21px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="top"><span>♡ PRIVATE MEMBERSHIP CLUB</span><span>EST. FOREVER</span></div>
+  <section class="card">
+    <section id="welcome">
+      <div class="brand">
+        <div class="logo">MY LOVE PREMIUM™</div>
+        <div class="heart">♥</div>
+        <div class="sub">THE OFFICIAL PARTNER MEMBERSHIP</div>
+        <h1>Forever<br>Looks Good on You.</h1>
+        <div class="price">RM 0.00</div>
+        <span class="pill">LIFETIME PLAN · NO PAYMENT REQUIRED</span>
+      </div>
+      <div class="rule"></div>
+      <h2>YOUR PREMIUM BENEFITS</h2>
+      <div class="grid">
+        <div class="benefit"><b>♡</b>Unlimited affection</div>
+        <div class="benefit"><b>✉</b>Daily little updates</div>
+        <div class="benefit"><b>✧</b>Emotional support</div>
+        <div class="benefit"><b>∞</b>Shared memories</div>
+      </div>
+      <p class="copy" style="text-align:center;margin:20px 0 0">One subscription. Two people choosing each other. A whole lot of love.</p>
+      <div class="actions"><button class="primary" onclick="show('details')">VIEW MY MEMBERSHIP →</button></div>
+    </section>
+
+    <section id="details" class="hidden">
+      <div class="brand">
+        <div class="logo">MY LOVE PREMIUM™</div><div class="heart">♡</div>
+        <h1>Let's make it official.</h1>
+        <p class="copy">Personalise your membership card before reviewing the agreement.</p>
+      </div>
+      <div class="field"><label for="partner">MEMBER'S NAME</label><input id="partner" maxlength="36" placeholder="Your favourite human"></div>
+      <div class="field"><label for="owner">SUBSCRIBED TO</label><input id="owner" maxlength="36" placeholder="Your name / nickname"></div>
+      <div class="field"><label for="plan">MEMBERSHIP PLAN</label><input id="plan" value="Forever Plan" maxlength="30"></div>
+      <div class="actions">
+        <button class="primary" onclick="show('terms')">CONTINUE TO TERMS →</button>
+        <button class="secondary" onclick="show('welcome')">BACK</button>
+      </div>
+    </section>
+
+    <section id="terms" class="hidden">
+      <div class="brand"><div class="logo">MY LOVE PREMIUM™</div><h1>Terms & Conditions</h1><p class="copy">Please read our very serious (but very cute) relationship agreement.</p></div>
+      <div class="rule"></div>
+      <div class="terms">
+        <div class="term"><strong>01 · Communication</strong><p>Little updates matter. If you're busy, a simple message when possible helps us feel connected. No one is expected to be available every second.</p></div>
+        <div class="term"><strong>02 · Loyalty & Honesty</strong><p>We agree to be honest, faithful to the boundaries we've discussed, and clear about anything that could affect our trust.</p></div>
+        <div class="term"><strong>03 · Premium Benefits</strong><p>Includes affection, encouragement, silly conversations, thoughtful messages, emotional support and unlimited chances to make lovely memories.</p></div>
+        <div class="term"><strong>04 · Maintenance & Updates</strong><p>Both members help maintain this subscription with effort, patience, kindness, quality time and mutual respect.</p></div>
+        <div class="term"><strong>05 · Conflict Resolution</strong><p>We try to talk instead of assuming, listen instead of dismissing, and apologise sincerely when we've hurt each other. No punishment through silence.</p></div>
+        <div class="term"><strong>06 · Renewal Policy</strong><p>The Forever Plan is renewed by choosing each other every day. Love is a shared choice, not an obligation.</p></div>
+        <div class="term"><strong>07 · Cancellation & Consent</strong><p>This is a playful love contract, not a legal agreement. Either person can leave a relationship that no longer feels right or healthy. Consent and freedom always come first.</p></div>
+      </div>
+      <div class="field" style="margin-top:18px"><label><input id="agree" type="checkbox" style="width:auto;vertical-align:middle;margin-right:8px"> I have read this and want to accept the membership.</label></div>
+      <div class="actions">
+        <button class="primary" onclick="accept()">♡ ACCEPT MEMBERSHIP</button>
+        <button class="secondary" onclick="show('notready')">I'M NOT READY YET</button>
+        <button class="ghost" onclick="show('details')">BACK TO DETAILS</button>
+      </div>
+      <p class="note">No payment details are collected. This page does not send anyone's choice to the website owner.</p>
+    </section>
+
+    <section id="notready" class="hidden">
+      <div class="brand"><div class="heart">♡</div><h1>No pressure.</h1></div>
+      <p class="copy" style="text-align:center">A good relationship should be chosen freely. Take your time — the important thing is that we're both happy and comfortable.</p>
+      <div class="actions"><button class="primary" onclick="show('terms')">READ THE TERMS AGAIN</button><button class="secondary" onclick="show('welcome')">RETURN HOME</button></div>
+    </section>
+
+    <section id="success" class="hidden">
+      <div class="brand">
+        <div class="logo">MY LOVE PREMIUM™</div><div class="heart">♥</div>
+        <h1>Membership accepted!</h1>
+        <p class="copy">Welcome to the sweetest little membership club.</p>
+      </div>
+      <div class="member">
+        <div class="member-top"><span class="logo">MY LOVE PREMIUM™</span><span class="pill">ACTIVE</span></div>
+        <div class="member-name" id="cardName">Forever Member</div>
+        <div class="copy" id="cardOwner">SUBSCRIBED TO: YOUR FAVOURITE PERSON</div>
+        <div class="rule"></div>
+        <div class="member-top"><strong>FOREVER PLAN</strong><span class="member-id" id="memberId">ID: ML-000000</span></div>
+        <div class="member-meta"><span>STATUS: ACCEPTED ON THIS DEVICE</span><span>♡ LIFETIME</span></div>
+      </div>
+      <div class="toast">Your membership comes with unlimited love, honest communication and two people who keep choosing each other. ♡</div>
+      <div class="actions"><button class="secondary" onclick="window.print()">SAVE / PRINT MEMBERSHIP CARD</button><button class="ghost" onclick="show('welcome')">RETURN TO HOME</button></div>
+      <p class="note">This confirmation is shown only in this browser. It is not sent to the other partner or stored on a server.</p>
+    </section>
+    <div class="foot">MADE WITH ♡ · NOT A REAL PAYMENT OR LEGAL SUBSCRIPTION</div>
+  </section>
+</main>
+<script>
+function show(id){
+  document.querySelectorAll('section[id]').forEach(s=>s.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function accept(){
+  if(!document.getElementById('agree').checked){
+    alert('Please tick the box if you freely agree. ♡'); return;
+  }
+  const partner=document.getElementById('partner').value.trim()||'Forever Member';
+  const owner=document.getElementById('owner').value.trim()||'YOUR FAVOURITE PERSON';
+  document.getElementById('cardName').textContent=partner;
+  document.getElementById('cardOwner').textContent='SUBSCRIBED TO: '+owner.toUpperCase();
+  document.getElementById('memberId').textContent='ID: ML-'+Math.random().toString(36).slice(2,8).toUpperCase();
+  show('success');
+}
+</script>
+</body>
+</html>
